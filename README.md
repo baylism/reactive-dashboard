@@ -11,9 +11,9 @@ Create a single-page react application with a line graph component that can be u
 - [x] Create some sample data streams (probably random numbers) which will be displayed on the dashboard. 
 - [x] Create a Webflux websockets API to which the clients can subscribe. 
 - [x] Publish the data streams on the API and visualise in the react graphs.
-- [] More components for different graph types (bar, doughnut etc.)
-- [] Build out React app with better structure, error handling etc.
-- [] Improve CSS
-- [] Add Spring security, optimise backend (connection sharing?)
+- [ ] More components for different graph types (bar, doughnut etc.)
+- [ ] Build out React app with better structure, error handling etc.
+- [ ] Improve CSS
+- [ ] Add Spring security, optimise backend (connection sharing?)
 
 
