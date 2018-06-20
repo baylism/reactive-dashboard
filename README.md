@@ -6,7 +6,7 @@ This is a work in progress and currently only displays a couple of graphs with r
 
 ## TODO
 - [x] Set up development environment. 
-Create a single-page react application with a line graph component that can be updated as new data is streamed in. 
+- [x] Create a single-page react application with a line graph component that can be updated as new data is streamed in. 
 - [x] Create a Spring WebFlux backend and that serves the React application. 
 - [x] Create some sample data streams (probably random numbers) which will be displayed on the dashboard. 
 - [x] Create a Webflux websockets API to which the clients can subscribe. 
