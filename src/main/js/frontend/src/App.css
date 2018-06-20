@@ -1,0 +1,18 @@
+html {
+  background: linear-gradient(white, gainsboro);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+}
+
+.MovingChart {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 720px;
+  padding: 1em;
+}
