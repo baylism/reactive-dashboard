@@ -104,6 +104,7 @@ class MovingChart extends Component {
     static options() {
         return {
             showLines: true,
+            responsive: true,
             animation: false,
             legend: {
                 display: false
@@ -138,7 +139,7 @@ class MovingChart extends Component {
     render() {
         return (
             <div className="MovingChart">
-                <h2>{this.props.title}</h2>
+                {this.props.smallTitle ? <h4>{this.props.title}</h4> : <h2>{this.props.title}</h2>}
 
                 <Line
                     data={this.state.graphdata}

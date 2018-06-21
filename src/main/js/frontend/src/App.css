@@ -1,9 +1,14 @@
 html {
-  background: linear-gradient(white, gainsboro);
+  /*background: linear-gradient(white, gainsboro);*/
 }
 
 * {
   box-sizing: border-box;
+}
+
+h1 {
+    text-align: left;
+    margin-left: 5%;
 }
 
 .App {
@@ -11,8 +16,38 @@ html {
 }
 
 .MovingChart {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 720px;
-  padding: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 720px;
+}
+
+.feature-graph {
+    padding: 2em;
+}
+
+.middle-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: right;
+    padding: 2em;
+}
+
+.analysis {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.lower-graph {
+    /*background-color: lightgoldenrodyellow;*/
+    align-self: center;
+    padding-left: 1em;
+    padding-right: 0.5em;
+}
+
+.lower-text {
+    /*background-color: rgba(0,0,0,.2);*/
+    align-self: center;
+    padding-right: 1em;
+
 }

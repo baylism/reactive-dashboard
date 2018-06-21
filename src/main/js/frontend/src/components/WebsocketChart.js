@@ -56,10 +56,6 @@ class MovingChart extends Component {
             console.log(event.data);
             this.updateGraph(event.data);
         };
-
-        // this.timerID = setInterval(
-        //     () => this.updateGraph(),
-        //     1000)
     }
 
     componentWillUnmount() {
