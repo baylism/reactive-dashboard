@@ -36,6 +36,7 @@ h1 {
 .analysis {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 1em;
 }
 
 .lower-graph {
