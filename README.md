@@ -2,7 +2,7 @@
 
 A basic dashboard using Spring WebFlux and React.
 
-This is a work in progress and currently only displays a couple of graphs with random data. 
+This is a work in progress:
 
 ## TODO
 - [x] Set up development environment. 
